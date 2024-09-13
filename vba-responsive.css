@@ -1,0 +1,112 @@
+a[href$=".pdf"],
+a[href$=".ppt"],
+a[href$=".pptx"],
+a[href$=".doc"],
+a[href$=".docx"],
+a[href$=".xls"],
+a[href$=".xlsx"],
+a[href$=".csv"],
+a[href$=".vsd"],
+a[href$=".vdw"],
+a[href$=".mp3"],
+a[href$=".zip"],
+a[href$=".rar"],
+a[href$=".asx"],
+a[href$=".ram"] {
+    display: inline !important;
+    background-position: right bottom !important;
+    background-size: 14px 14px !important;
+}
+
+#innerContent ol,
+#tier4innerContent ol {
+    margin-left: 30px !important;
+    margin-bottom: 16px !important;
+}
+
+#innerContent li,
+#tier4innerContent li {
+    line-height: 1.5em !important;
+    font-size: 1.1em !important;
+}
+
+#innerContent li li,
+#tier4innerContent li li {
+    font-size: 1em !important;
+}
+
+#innerContent li p,
+#tier4innerContent li p {
+    font-size: 1em !important;
+    line-height: 1.5em !important;
+    margin-bottom: .4em !important;
+}
+
+#innerContent ol.alpha li,
+#tier4innerContent ol.alpha li {
+    list-style: lower-alpha !important;
+}
+
+div.subscribebox {
+    float: left;
+    width: 100%;
+    max-height: 100%;
+    padding: 5px 2px;
+    margin: -30px 0 0 15px;
+}
+
+#homeinnerContent {
+    float: none;
+}
+
+#homeinnerContent .disclaimer {
+    padding: 10px 10px 10px 10px;
+    background: #f4f4f4;
+    border: 1px solid #e6e6e6;
+    font-size: .8em;
+}
+
+#homeinnerContent .panes .thumb-left {
+    float: left;
+    margin: 20px 15px 15px 20px;
+    border: #ccc 3px solid;
+}
+
+#homeinnerContent .panes>div {
+    width: auto;
+}
+
+.block {
+    display: block;
+}
+
+.columnleft {
+    float: left;
+    width: 45%;
+}
+
+.columnright {
+    float: right;
+    width: 45%;
+}
+
+.platform {
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+#mainContentWrapper {
+    min-height: 92px;
+    background-image: url(https://benefits.va.gov/va_files/2012/images/greyfade.png);
+    background-repeat: repeat-x;
+    background-position: left top;
+    padding: 10px 20px 10px 20px;
+}
+
+#innerContent {
+    float: none;
+    background-image: url(https://benefits.va.gov/va_files/2012/images/greyfade.png);
+    background-position: left top;
+    background-repeat: repeat-x;
+    margin-top: 0;
+}

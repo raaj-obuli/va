@@ -89,6 +89,7 @@
         type="text/css">
     <link href="https://www.cem.va.gov/va_files/2014/responsive/styles/accessibleMegaMenu.css" media="all"
         rel="stylesheet" type="text/css">
+    <link href="./vba-responsive.css" media="all" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="https://www.va.gov/va_files/2014/responsive/scripts/swipe-min.js"></script>
     <script type="text/javascript" src="https://www.va.gov/va_files/2014/responsive/scripts/scrollable.js"></script>
     <script type="text/javascript" src="https://www.cem.va.gov/va_files/2014/responsive/scripts/left-nav.js"></script>
@@ -118,11 +119,13 @@
                     display: none !important;
                 }
             }
+
             @media screen and (min-width: 1008px) {
                 .ts-header-container .vcl-crisis-line-container {
                     max-width: 975px !important;
                 }
             }
+
             .usa-grid.usa-banner-inner img {
                 width: 20px;
             }
@@ -2960,16 +2963,6 @@
 
                                         <!--  START - Left column content -->
                                         <div id="left-col-content" class="widget social-connect-form">
-                                            <style>
-                                                div.subscribebox {
-                                                    float: left;
-                                                    width: 100%;
-                                                    max-height: 100%;
-                                                    padding: 5px 2px;
-                                                    margin: -30px 0 0 15px;
-                                                }
-                                            </style>
-
                                             <!-- START - widget -->
                                             <div class="widget-title">
                                                 <h4>Subscribe to VA’s Monthly Benefits Newsletter</h4>
@@ -3153,58 +3146,6 @@
 
 
                                                 </script>
-                                                <!-- BENEFITS style Override -->
-                                                <style>
-                                                    a[href$=".pdf"],
-                                                    a[href$=".ppt"],
-                                                    a[href$=".pptx"],
-                                                    a[href$=".doc"],
-                                                    a[href$=".docx"],
-                                                    a[href$=".xls"],
-                                                    a[href$=".xlsx"],
-                                                    a[href$=".csv"],
-                                                    a[href$=".vsd"],
-                                                    a[href$=".vdw"],
-                                                    a[href$=".mp3"],
-                                                    a[href$=".zip"],
-                                                    a[href$=".rar"],
-                                                    a[href$=".asx"],
-                                                    a[href$=".ram"] {
-                                                        display: inline !important;
-                                                        background-position: right bottom !important;
-                                                        background-size: 14px 14px !important;
-                                                    }
-
-                                                    #innerContent ol,
-                                                    #tier4innerContent ol {
-                                                        margin-left: 30px !important;
-                                                        margin-bottom: 16px !important;
-                                                    }
-
-                                                    #innerContent li,
-                                                    #tier4innerContent li {
-                                                        line-height: 1.5em !important;
-                                                        font-size: 1.1em !important;
-                                                    }
-
-                                                    #innerContent li li,
-                                                    #tier4innerContent li li {
-                                                        font-size: 1em !important;
-                                                    }
-
-                                                    #innerContent li p,
-                                                    #tier4innerContent li p {
-                                                        font-size: 1em !important;
-                                                        line-height: 1.5em !important;
-                                                        margin-bottom: .4em !important;
-                                                    }
-
-                                                    #innerContent ol.alpha li,
-                                                    #tier4innerContent ol.alpha li {
-                                                        list-style: lower-alpha !important;
-                                                    }
-                                                </style>
-                                                <!-- END Benefits specific code -->
                                             </div>
                                             <!-- END - widget -->
                                         </div>
@@ -3326,8 +3267,7 @@
 
                                             <!-- Skip Nav -->
                                             <span style="position:absolute;">
-                                                <a name="main-content"
-                                                    id="main-content">&nbsp;</a>
+                                                <a name="main-content" id="main-content">&nbsp;</a>
                                             </span>
 
                                             <div class="clear"></div>
