@@ -28,6 +28,7 @@ a[href$=".ram"] {
 #tier4innerContent li {
     line-height: 1.5em !important;
     font-size: 1.1em !important;
+    list-style: disc;
 }
 
 #innerContent li li,
