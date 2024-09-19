@@ -111,3 +111,8 @@ div.subscribebox {
     background-repeat: repeat-x;
     margin-top: 0;
 }
+
+.accordion span,
+.sub-menu li > a span {
+    padding-top: 7px;
+}
