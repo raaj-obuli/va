@@ -37,3 +37,6 @@ https://raaj-obuli.github.io/va/Atlanta-Home.html
 <div class="ts-header-container"></div>
 <div class="ts-footer-container clearfix"></div>
 ```
+
+## Note
+Some of the existing HTML tags are added a class 'clearfix' to fix styles. Please search for 'clearfix' and add the class to existing HTML.
