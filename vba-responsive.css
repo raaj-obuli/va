@@ -113,6 +113,68 @@ div.subscribebox {
 }
 
 .accordion span,
-.sub-menu li > a span {
+.sub-menu li>a span {
     padding-top: 7px;
+}
+
+
+.va-crisis-line {
+    float: right;
+    margin: 0px 5px 10px 0;
+}
+
+.va-flex {
+    display: -webkit-flex;
+    display: flex;
+}
+
+button.va-crisis-line-button {
+    color: #212121;
+    background-color: #ffffff;
+    text-align: center;
+    margin: auto;
+    padding: 0.4em 26px 0.3em 0;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0 26px 0 0;
+
+}
+
+button.va-crisis-line-button:hover {
+    background-color: #ffffff;
+    color: #212121;
+}
+
+button.va-crisis-line-button:focus {
+    outline: 2px dotted #c30000;
+}
+
+button.va-crisis-line-button .vcl {
+    content: "";
+    background: url(https://www.oit.va.gov/_media/img/vcl-logo.png) no-repeat right 29%;
+    background-size: 100%;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    margin: 0.3em 0.5em -0.3em 0.5em;
+}
+
+button.va-crisis-line-button>.va-flex {
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+@media screen and (min-width: 768px) {
+    button.va-crisis-line-button {
+        background: #ffffff url(https://www.oit.va.gov/_media/img/uswds/arrow-right.svg) calc(100% - 0.5em) center no-repeat;
+        background-size: .8em auto;
+        border-radius: 0 0 0.5em 0.5em;
+        box-shadow: 0 2px 5px #212121;
+        padding: 0 26px 0 0;
+        text-align: left;
+    }
 }
