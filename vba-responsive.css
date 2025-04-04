@@ -2,6 +2,10 @@ html {
     font-size: 10px;
 }
 
+body {
+    font-size: 12px;
+}
+
 a[href$=".pdf"],
 a[href$=".ppt"],
 a[href$=".pptx"],
