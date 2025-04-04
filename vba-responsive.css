@@ -1,3 +1,7 @@
+html {
+    font-size: 10px;
+}
+
 a[href$=".pdf"],
 a[href$=".ppt"],
 a[href$=".pptx"],
@@ -184,6 +188,6 @@ button.va-crisis-line-button>.va-flex {
 }
 
 #inside-vet-ben div#news-controls {
-    width: auto !important;
+    width: 270px !important;
     float: right;
 }
