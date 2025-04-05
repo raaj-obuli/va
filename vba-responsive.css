@@ -186,12 +186,3 @@ button.va-crisis-line-button>.va-flex {
         text-align: left;
     }
 }
-
-#inside-vet-ben .ui-tabs-panel {
-    width: 100%;
-}
-
-#inside-vet-ben div#news-controls {
-    width: 270px !important;
-    float: right;
-}

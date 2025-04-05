@@ -30,9 +30,9 @@
             src="/ruxitagentjs_ICA7NVfgqrux_10303241106123517.js"
             data-dtconfig="rid=RID_1562322447|rpid=2020644600|domain=va.gov|reportUrl=/rb_65aa2f7a-2a1d-4836-9cfb-f98e8ba3af74|app=ea7c4b59f27d43eb|cuc=e0lcgmjb|ssc=1|coo=1|mel=100000|featureHash=ICA7NVfgqrux|dpvc=1|lastModification=1743098884826|tp=500,50,0|rdnt=1|uxrgce=1|agentUri=/ruxitagentjs_ICA7NVfgqrux_10303241106123517.js"
             ></script>
-        <style type="text/css" media="screen,print">
+        <!-- <style type="text/css" media="screen,print">
             @import url(https://benefits.va.gov/BENEFITS/styles/site-styles.css);
-        </style>
+        </style> -->
         <link
             href="https://www.benefits.va.gov/vbatemplate/css/benefits_styles.css"
             media="all"
@@ -220,6 +220,7 @@
             type="text/css"
             />
         <link href="./vba-responsive.css" media="all" rel="stylesheet" type="text/css">
+        <link href="./panel-slider.css" media="all" rel="stylesheet" type="text/css">
         <script
             type="text/javascript"
             src="https://www.va.gov/va_files/2014/responsive/scripts/swipe-min.js"
@@ -6832,81 +6833,108 @@
                                                             Inside
                                                             <span class="highlight">Veterans Benefits</span>
                                                         </h2>
+
+                                                        <!-- START - News Container -->
                                                         <div
-                                                            style="position: relative"
-                                                            id="newsContainer"
+                                                            class="panel-slider clearfix"
                                                             aria-live="polite"
                                                             >
-                                                            <div id="news1" class="ui-tabs-panel">
-                                                                <h3>
-                                                                    <img
-                                                                        alt="TEST"
-                                                                        src="https://benefits.va.gov/BENEFITS/images/news/VAntagePoint-novel-coronavirus-178-132.jpg"
-                                                                        width="178"
-                                                                        height="132"
-                                                                        />Our Response to COVID-19
-                                                                </h3>
-                                                                We appreciate your patience as we continue to
-                                                                work with you during this time of crisis.
-                                                                <p class="readfull">
-                                                                    <a
-                                                                        title="tEST 1"
-                                                                        href="/BENEFITS/news.asp#coronavirus"
-                                                                        >Read the full story.. &raquo;</a
-                                                                        >
-                                                                </p>
+                                                            <!-- START - Panel Container -->
+                                                            <div id="newsContainer">
+                                                                <!-- START - Panel 1 -->
+                                                                <div id="news1" class="ui-tabs-panel">
+                                                                    <div class="panel-wrapper">
+                                                                        <div class="panel-media">
+                                                                            <img
+                                                                                alt="TEST"
+                                                                                src="https://benefits.va.gov/BENEFITS/images/news/VAntagePoint-novel-coronavirus-178-132.jpg"
+                                                                                width="178"
+                                                                                height="132"
+                                                                                />
+                                                                        </div>
+                                                                        <div class="panel-content">
+                                                                            <h3>
+                                                                                Our Response to COVID-19
+                                                                            </h3>
+                                                                            We appreciate your patience as we continue to work with you during this time of crisis.
+                                                                            <p class="readfull">
+                                                                                <a
+                                                                                    title="tEST 1"
+                                                                                    href="/BENEFITS/news.asp#coronavirus"
+                                                                                    >Read the full story.. &raquo;</a
+                                                                                    >
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- END - Panel 1 -->
+
+                                                                <!-- START - Panel 2 -->
+                                                                <div id="news2" class="ui-tabs-panel">
+                                                                    <div class="panel-wrapper">
+                                                                        <div class="panel-media">
+                                                                            <img
+                                                                                alt="test test"
+                                                                                src="https://benefits.va.gov/BENEFITS/images/news/VAntagePoint-novel-coronavirus-178-132.jpg"
+                                                                                width="178"
+                                                                                height="132"
+                                                                                />
+                                                                        </div>
+                                                                        <div class="panel-content">
+                                                                            <h3>
+                                                                                read Read
+                                                                            </h3>
+                                                                            rear read
+                                                                            <p class="readfull">
+                                                                                <a
+                                                                                    title="read Read"
+                                                                                    href="/BENEFITS/news.asp#coronavirus"
+                                                                                    >Read the full story &raquo;</a
+                                                                                    >
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- END - Panel 2 -->
                                                             </div>
-                                                            <div id="news2" class="ui-tabs-panel">
-                                                                <h3>
-                                                                    <img
-                                                                        alt="test test"
-                                                                        src="https://benefits.va.gov/BENEFITS/images/news/VAntagePoint-novel-coronavirus-178-132.jpg"
-                                                                        width="178"
-                                                                        height="132"
-                                                                        />read Read
-                                                                </h3>
-                                                                rear read
-                                                                <p class="readfull">
-                                                                    <a
-                                                                        title="read Read"
-                                                                        href="/BENEFITS/news.asp#coronavirus"
-                                                                        >Read the full story &raquo;</a
-                                                                        >
-                                                                </p>
+                                                            <!-- END - Panel Container -->
+
+                                                            <!-- START - Control -->
+                                                            <div id="news-controls" class="panel-slider-controls">
+                                                                <span class="pageCount">&#160;</span>&#160;<a
+                                                                    class="previous"
+                                                                    href="#"
+                                                                    >Previous</a
+                                                                    >
+                                                                | <a class="next" href="#">Next</a
+                                                                    ><a
+                                                                    href="http://www.benefits.va.gov/benefits/news.asp"
+                                                                    class="more"
+                                                                    >More Stories</a
+                                                                    >
                                                             </div>
+                                                            <!-- START - Control -->
                                                         </div>
-                                                        <!-- end newsContainer -->
-                                                        <div id="news-controls">
-                                                            <span class="pageCount">&#160;</span>&#160;<a
-                                                                class="previous"
-                                                                href="#"
-                                                                >Previous</a
-                                                                >
-                                                            | <a class="next" href="#">Next</a
-                                                                ><a
-                                                                href="http://www.benefits.va.gov/benefits/news.asp"
-                                                                class="more"
-                                                                >More Stories</a
-                                                                >
-                                                        </div>
-                                                        <div style="clear: both"></div>
                                                     </div>
+                                                    
                                                     <script
                                                         type="text/javascript"
-                                                        src="https://www.benefits.va.gov/vbatemplate/js/news-slider.js"
+                                                        src="./news-slider.js"
                                                         >
                                                         <!--//-->
                                                     </script>
                                                     <script type="text/javascript">
                                                         <!--
-                                                        createNewsSlider(
-                                                          $("#newsContainer"),
-                                                          $("#news-controls .next"),
-                                                          $("#news-controls .previous"),
-                                                          $("#news-controls span.pageCount")
-                                                        );
+                                                            createNewsSlider(
+                                                                $("#newsContainer"),
+                                                                $("#news-controls .next"),
+                                                                $("#news-controls .previous"),
+                                                                $("#news-controls .pageCount")
+                                                            );
                                                         //-->
                                                     </script>
+                                                    <!-- END - News Container -->
+
                                                     <!-- end inside vet ben -->
                                                     <style>
                                                         .block {
