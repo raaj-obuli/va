@@ -186,3 +186,23 @@ button.va-crisis-line-button>.va-flex {
         text-align: left;
     }
 }
+
+.quick-nav h2 {
+    margin: 0;
+}
+
+.quick-nav {
+    font-size: 120%;
+    padding: 15px;
+    overflow: auto;
+    background-color: #eeeeee;
+}
+
+.quick-nav ul {
+    list-style:none;
+    padding-left:0 !important;
+}
+
+.quick-nav ul li {
+    padding: 0 0 6px 0;
+}
