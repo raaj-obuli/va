@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panel Slider</title>
+    <link rel="stylesheet" href="./panel-slider.css" />
+    <script
+      src="https://benefits.va.gov/va_files/2012/scripts/jquery-1-10-1-min.js"
+      type="text/javascript"
+    ></script>
+    <script src="./news-slider.js"></script>
+
+    <!-- Do not include this style -->
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        line-height: 1.5em;
+        color: #333;
+        max-width: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- START - News Container -->
+    <div class="panel-slider clearfix" aria-live="polite">
+      <!-- START - Panel Container -->
+      <div id="newsContainer">
+        <!-- START - Panel 1 -->
+        <div id="news1" class="ui-tabs-panel">
+          <div class="panel-wrapper">
+            <div class="panel-media">
+              <img
+                alt="TEST"
+                src="https://benefits.va.gov/BENEFITS/images/news/VAntagePoint-novel-coronavirus-178-132.jpg"
+                width="178"
+                height="132"
+              />
+            </div>
+            <div class="panel-content">
+              <h3>Our Response to COVID-19</h3>
+              We appreciate your patience as we continue to work with you during
+              this time of crisis.
+              <p class="readfull">
+                <a title="tEST 1" href="/BENEFITS/news.asp#coronavirus"
+                  >Read the full story.. &raquo;</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- END - Panel 1 -->
+
+        <!-- START - Panel 2 -->
+        <div id="news2" class="ui-tabs-panel">
+          <div class="panel-wrapper">
+            <div class="panel-media">
+              <img
+                alt="test test"
+                src="https://benefits.va.gov/BENEFITS/images/news/VAntagePoint-novel-coronavirus-178-132.jpg"
+                width="178"
+                height="132"
+              />
+            </div>
+            <div class="panel-content">
+              <h3>read Read</h3>
+              rear read
+              <p class="readfull">
+                <a title="read Read" href="/BENEFITS/news.asp#coronavirus"
+                  >Read the full story &raquo;</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- END - Panel 2 -->
+      </div>
+      <!-- END - Panel Container -->
+
+      <!-- START - Control -->
+      <div id="news-controls" class="panel-slider-controls">
+        <span class="pageCount">&#160;</span>&#160;<a class="previous" href="#"
+          >Previous</a
+        >
+        | <a class="next" href="#">Next</a
+        ><a href="http://www.benefits.va.gov/benefits/news.asp" class="more"
+          >More Stories</a
+        >
+      </div>
+      <!-- START - Control -->
+    </div>
+
+    <script type="text/javascript">
+      <!--
+      createNewsSlider(
+        $("#newsContainer"),
+        $("#news-controls .next"),
+        $("#news-controls .previous"),
+        $("#news-controls .pageCount")
+      );
+      //-->
+    </script>
+    <!-- END - News Container -->
+  </body>
+</html>
