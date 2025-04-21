@@ -1,0 +1,11 @@
+#tier4innerContent ul.jumpMenuLinks {
+    display: flex;
+    flex-wrap: wrap;
+}
+#tier4innerContent ul.jumpMenuLinks li {
+    padding-bottom: 0;
+}
+ul.jumpMenuLinks li a {
+    height: 38px;
+    padding: 12px 0;
+}
