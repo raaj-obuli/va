@@ -1,0 +1,27 @@
+.btnwrap {
+    margin: 20px 0px 50px;
+}
+.btnlink {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .btnwrap {
+        display: flex;
+    }
+    .btnwrap .btndiv {
+        flex-grow: 1;
+        flex-basis: 0;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .btnwrap {
+        flex-direction: column;
+    }
+    .btnlink-wrap {
+        text-align: center;
+    }
+}
