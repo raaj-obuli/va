@@ -206,3 +206,8 @@ button.va-crisis-line-button>.va-flex {
 .quick-nav ul li {
     padding: 0 0 6px 0;
 }
+
+.scrollable .items > .slide > a {
+    display: block !important;
+    padding: 0 !important;
+}
